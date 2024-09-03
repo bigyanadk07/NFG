@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #6e9887;
+    color: white;
+  }
+  
+  .title {
+    align-items: center;
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userIcon {
+    display: flex;
+    margin-right: 25px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .logoutBtn {
+    cursor: pointer;
+  }
+  
+  .logoutBtn:hover {
+    transform: scale(0.9);
+    transition: 1s;
+    color: red;
+  }
+  
+  .userIcon:hover {
+    transform: scale(0.9);
+    transition: 1s;
+    color: #48cae4;
+  }
+body{
+    font-family: Space Grotesk;
+}
+
+
+input{
+    font-family: Space Grotesk;
+    padding: 6px;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
